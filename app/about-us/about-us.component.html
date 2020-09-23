@@ -1,0 +1,18 @@
+<h3>Welcome To employees</h3>
+
+<!-- <ul>
+    <li *ngFor="let resultObj of employee">
+      {{ resultObj.employee_name }}
+    </li>
+ </ul> -->
+
+ <div class="container">
+ <table class="table table-striped">
+     <tr>
+         <th>Employee Name</th>
+     </tr>
+     <tr *ngFor="let resultObj of employee">
+        <td>{{ resultObj.employee_name }}</td>
+     </tr>
+ </table>
+</div>
